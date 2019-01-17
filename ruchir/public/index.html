@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>Bharat first Project</title>
+	
+
+
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCQLP2DSfhvnagTLbKHvL_NJBjuRhhgaEo",
+    authDomain: "ruchirdata.firebaseapp.com",
+    databaseURL: "https://ruchirdata.firebaseio.com",
+    projectId: "ruchirdata",
+    storageBucket: "",
+    messagingSenderId: "210609312156"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</head>
+<body>
+  <script type="text/javascript" src="index.js"></script>
+<h1>Database Connectivity</h1>
+<textarea id="mainText" style="background-color: yellow;" placeholder="Enter Text Here....."></textarea>
+<textarea id="mainText2" style="background-color: blue;" placeholder="Enter Next Value Here..."></textarea>
+<textarea id="mainText3" style="background-color: red;" placeholder="Enter Next Value Here..."></textarea>
+<input id="submitBtn" onclick="submitClick()" type="submit" name="submit" value="submit">
+</body>
+</html>
